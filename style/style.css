@@ -172,3 +172,42 @@ nav ul a{
     font-size: 13px;
     font-weight: 400;
 }
+.section-3{
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.My-resume{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-contineur{
+    display: flex;
+    margin: 70px;
+    gap: 50px;
+}
+.edcation-master{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.exam-title{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.course-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.university{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.course-discription{
+    font-size: 12px;
+    font-weight: 600;
+}
