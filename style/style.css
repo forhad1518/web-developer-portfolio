@@ -14,6 +14,7 @@
     color: rgb(71, 71, 71)
 }
 /* universal button area */
+/* button style */
 .btn{
     padding: 15px 28px;
     background-color: rgb(253, 110, 10);
@@ -24,6 +25,7 @@
     font-weight: 700;
     cursor: pointer;
 }
+/* Navbar style */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -58,6 +60,7 @@ nav ul a{
     background-size: 7%, 60%;
     margin: 0 10px 0 15px;
 }
+/* Banner style */
 .banner{
     display: flex;
     align-items: center;
@@ -104,6 +107,7 @@ nav ul a{
     margin: 0 auto;
     background-color: rgb(255, 248, 243);
     margin-top: 100px;
+    border-radius: 5px;
     padding: 120px 150px;
 }
 .about-content{
@@ -134,9 +138,11 @@ nav ul a{
 }
 .cont-descriptions{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 700;
     color: rgb(71, 71, 71);
+
 }
+/* SKilles section */
 .skill-sections{
     max-width: 900px;
     margin: 0 auto;
@@ -172,6 +178,7 @@ nav ul a{
     font-size: 13px;
     font-weight: 400;
 }
+/* My resume section */
 .section-3{
     max-width: 1040px;
     margin: 0 auto;
@@ -210,4 +217,56 @@ nav ul a{
 .course-discription{
     font-size: 12px;
     font-weight: 600;
+}
+.download-cv{
+    text-align: center;
+}
+/* Footer seciton */
+.footer-section{
+    height: 500px;
+    display: flex;
+    background-color: rgb(255, 248, 243);
+    padding: 80px 130px;
+    gap: 80px;
+    margin-top: 90px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 50px;
+}
+.footer-left h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.footer-left p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-left img{
+    margin-right: 15px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 50px;
+}
+.footer-right h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.footer-right input{
+    padding: 10px;
+    border: none;
+}
+.footer-right textarea{
+    padding: 10px;
+    border: none;
+}
+.footer-right button{
+    width: 40%;
 }
